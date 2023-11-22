@@ -11,5 +11,5 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogo
 timeout /T 1
 start explorer.exe
 timeout /T 1
-REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d "wscript.exe %~dp0SteamStartup.vbs" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d "wscript.exe %~dp0LauncherStartup.vbs" /f
 exit

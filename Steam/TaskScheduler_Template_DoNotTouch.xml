@@ -28,7 +28,7 @@
     <RunOnlyIfIdle>false</RunOnlyIfIdle> 
     <WakeToRun>false</WakeToRun> 
     <ExecutionTimeLimit>PT72H</ExecutionTimeLimit> 
-    <Priority>7</Priority> 
+    <Priority>3</Priority> 
   </Settings> 
   <Actions Context="Author"> 
     <Exec> 
